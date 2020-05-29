@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(white-printer-paper-196645.jpg);
+    background-size: 100%;
+}
+
+.wrapper {
+    text-align: center;
+    width: 720px;
+    margin: auto;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.button {    
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #19b490;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    width: 180px;
+}
+
+.button:hover {
+    opacity: 0.75;
+}
+
+#grid-container {
+    margin: auto;
+    width: 720px;
+    height: 720px;
+    border: 1px solid black;
+    display: grid;  
+    background-color: white;
+}
+
+.griditem {
+    border: 1px solid #d1d1d1;
+}
+
